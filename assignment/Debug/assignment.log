@@ -1,0 +1,27 @@
+﻿  assign.cpp
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(27): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(121): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(121): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(121): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(121): note: this argument is used as a buffer size
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(122): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(603): note: see declaration of 'strupr'
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(147): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(147): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(147): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(147): note: this argument is used as a buffer size
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(148): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(603): note: see declaration of 'strupr'
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(239): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(245): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(276): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(292): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(305): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(306): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(311): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(366): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(603): note: see declaration of 'strupr'
+c:\users\tashvi g\documents\visual studio 2015\projects\assignment\assignment\assign.cpp(367): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(603): note: see declaration of 'strupr'
+  assignment.vcxproj -> C:\Users\Tashvi G\documents\visual studio 2015\Projects\assignment\Debug\assignment.exe
+  assignment.vcxproj -> C:\Users\Tashvi G\documents\visual studio 2015\Projects\assignment\Debug\assignment.pdb (Full PDB)
