@@ -1,0 +1,182 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<link rel="stylesheet" type="text/css" href="~/css/mystyle.css">
+
+<div class="parallax_scrolling">
+    <div class="dark_background">
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                <p class="oxygen">Canberra Restaurants</p>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                <p class="niconne">Dishes</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+@* ---------------------------- *@
+@*<div class="col-lg-5 col-md-5 col-xs-6">
+    <div class="col-md-6" style="padding-top:60px;">
+        <img src="~/images/burger.jpeg" class="img-responsive" style="width:100%" />
+    </div>
+    <div class="col-md-6" style="padding-top:60px;">
+        <img src="~/images/pasta.jpeg" class="img-responsive" style="width:100%" />
+                </div>
+            </div>*@
+        <div class="white_background">
+
+            <div class="row">
+
+                <div class="col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1" style="padding-top:60px">
+
+                    <p class="han">A DISH FOR EVERY TASTE</p>
+
+                    <p>
+
+                        If you've got ahankering for a big bowl of handmade pasta or a delicious, spicy laksa, then look no further.
+
+                        <br />
+                        <br />
+
+                        Check out what's on offer by selecting a dish from the menu below.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-xs-5 col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <div class="col-md-6" style="padding-top:60px;">
+                        <img src="~/images/burger.jpeg" class="img-responsive" style="width:100%" />
+                    </div>
+                    <div class="col-md-6 col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1" style="padding-top:60px;">
+                        <img src="~/images/pasta.jpeg" class="img-responsive" style="width:100%" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        @* ---------------------------- *@
+
+        <div class="white_background">
+            <div class="row">
+                <div class="col-md-9 col-md-offset-1 col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+
+
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+                    <div class="container-fluid" id="elastic_grid"></div>
+
+                    <!-- Elastic grid -->
+                    <script type="text/javascript">
+                        $(function () {
+                            $("#elastic_grid").elastic_grid({
+                                'showAllText': 'All',
+                                'filterEffect': 'popup',
+                                'hoverDirection': true,
+                                'hoverDelay': 0,
+                                'hoverInverse': false,
+                                'expandingSpeed': 500,
+                                'expandingHeight': 364,
+                                'items':
+                                [
+
+                                    {
+                                        'title': 'JAMIES ITALAN <hr/> <a class="btn btn-primary">More Details</a>',
+                                        'description': '<h4>With prime position in the Canberra centre on Bunda Street, Jamies Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. With beautiful room-height windows and impressive lofty ceilings, the restaurants is full of atmostphere.-Jamies Italian Website.</h4>',
+                                        'thumbnail': ['/images/jamies_thumbnail.jpg'],
+                                        //<img src="~/images/is_small.jpg" alt="Mountain View" class="img-responsive" style="width:180px;height:150px;" />
+                                        'large': ['/images/jamies2.jpg'],
+                                        'button_list':
+                                        [
+                                            { 'title': 'Visit Website', 'url': 'https://www.jamieoliver.com/italian/australia/', 'new_window': true },
+                                        ],
+                                        'tags': ['Pasta']
+                                    },
+                                    {
+                                        'title': 'Italian and Sons <hr/> <a class="btn btn-primary">More Details</a>',
+                                        'description': '<h4>A casual Italian trattoria that specialises in wood fired pizzas such as Rucola with Prosciutto di Parma, rucola \& reggiano. Don\'t miss daily changing main dishes of the day such as their wood roast suckling pig, rosemary, garlic, baked baby fennel \& mustard fruits.</h4>',
+                                        'thumbnail': ['/images/is_small.jpg'],
+                                        'large': ['/images/is.jpg'],
+                                        'button_list':
+                                        [
+                                            { 'title': 'Visit Website', 'url': 'http://italianandsons.com.au/', 'new_window': true },
+                                        ],
+                                        'tags': ['Pizza']
+                                    },
+                                     {
+                                         'title': 'Blue Ginger <hr/> <a class="btn btn-primary">More Details</a>',
+                                         'description': '"<h4>At Blu Ginger we use only the freshest locally sourced produce, combined with authentic spices imported directly from the sub-continent, to offer classic, traditional recipes with a modern twist, creating a unique and memorable dining experience for you- Blu Ginger Website"</h4>',
+
+                                         'thumbnail': ['/images/bginger.jpg'],
+                                         'large': ['/images/bginger.jpg'],
+                                         'button_list':
+                                         [
+                                             { 'title': 'Visit Website', 'url': 'http://www.bluginger.com.au/', 'new_window': true },
+                                         ],
+                                         'tags': ['Curry']
+                                     },
+                                     {
+                                         'title': 'Jewel Of India <hr/> <a class="btn btn-primary">More Details</a>',
+                                         'description': '<h4>"Finding a balance between dishes inspired by authentic recipes and creating a modern take on classic cuisine sees a loyal following of Canberra locals returning for a mouth-watering feast"- Australian Good Food Guide Website</h4>',
+
+                                         'thumbnail': ['/images/jewel_small.jpg'],
+                                         'large': ['/images/jewel_small.jpg'],
+                                         'button_list':
+                                         [
+                                             { 'title': 'Visit Website', 'url': 'http://www.jewelofindia.com.au/', 'new_window': true },
+                                         ],
+                                         'tags': ['Curry']
+                                     },
+                                      {
+                                          'title': 'Chairman & Yip <hr/> <a class="btn btn-primary">More Details</a>',
+                                          'description': '<h4>The Chairman & Yip has become one of Canberras longest standing and most highly regarded institutions, having received numerous awars over the years, offering an ever consistent and professinal quality of service for corporate dining, conferences and presentations.-Chairman & Yip Website</h4>',
+                                          'thumbnail': ['/images/chairman_yip_thumbnail.jpg'],
+                                          'large': ['/images/chairman.jpg'],
+                                          'button_list':
+                                          [
+                                              { 'title': 'Visit Website', 'url': 'http://chairmangroup.com.au/chairmanyip/', 'new_window': true },
+                                          ],
+                                          'tags': ['Dumplings']
+                                      },
+                                       {
+                                           'title': 'Asian Noodle House <hr/> <a class="btn btn-primary">More Details</a>',
+                                           'description': '<h4>The Dickson Asian Noodle House specialises in traditional Malaysian, Thai and Lao cuisine. The dining atmosphere is casual and cosy providing for a la carte dining, banquets and take away."- Vibe FM Website</h4>',
+                                           'thumbnail': ['/images/dickson_noodle_thumbnail.jpg'],
+                                           'large': ['/images/asiannoodlehouse.jpg'],
+                                           'button_list':
+                                           [
+                                               { 'title': 'Visit Website', 'url': 'http://www.noodlehouse.net.au/Noodle_house/Welcome.html', 'new_window': true },
+                                           ],
+                                           'tags': ['Laksa']
+                                       },
+                                ]
+                            });
+                        });
+
+                    </script>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
